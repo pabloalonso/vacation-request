@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.5.7",
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.5.7",
   "id" : "f8fbd7dc-00ff-463f-90e8-e9fd197b71ce",
   "name" : "cancellationReviewForm",
-  "type" : "form",
-  "lastUpdate" : 1496753342845,
+  "lastUpdate" : 1526568390297,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -54,6 +54,10 @@
       "alignment" : {
         "type" : "constant",
         "value" : "left"
+      },
+      "allowHTML" : {
+        "type" : "constant",
+        "value" : true
       }
     },
     "reference" : "0ceeaa9b-131b-401d-a5b0-611a82b547ed",
@@ -464,6 +468,12 @@
     "type" : "css",
     "order" : 1,
     "external" : false
+  }, {
+    "id" : "b2bf7e8f-7748-4ecc-a403-c22cd8e2ad72",
+    "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+    "type" : "js",
+    "order" : 2,
+    "external" : false
   } ],
   "inactiveAssets" : [ ],
   "data" : {
@@ -502,5 +512,7 @@
       "value" : "[{\"display\":\"Approve cancellation\",\"value\":true},{\"display\":\"Refuse cancellation\",\"value\":false}]",
       "exposed" : false
     }
-  }
+  },
+  "uuid" : "f8fbd7dc-00ff-463f-90e8-e9fd197b71ce",
+  "type" : "form"
 }

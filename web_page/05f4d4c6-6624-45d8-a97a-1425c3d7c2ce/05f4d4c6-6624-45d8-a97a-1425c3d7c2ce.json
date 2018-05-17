@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.5.7",
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.5.7",
   "id" : "05f4d4c6-6624-45d8-a97a-1425c3d7c2ce",
   "name" : "initiateVacationAvailableOverview",
-  "type" : "form",
-  "lastUpdate" : 1496130876734,
+  "lastUpdate" : 1526568389715,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -67,6 +67,12 @@
     "id" : "pbTable"
   } ] ],
   "assets" : [ {
+    "id" : "f7a9c3f3-202a-4402-8193-25136cdf455b",
+    "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+    "type" : "js",
+    "order" : 2,
+    "external" : false
+  }, {
     "id" : "e88d4a35-7d24-411e-8e49-768a98b3c231",
     "name" : "style.css",
     "type" : "css",
@@ -80,5 +86,7 @@
       "value" : "../API/bdm/businessData/com.company.model.VacationAvailable?q=find&p=0&c=100",
       "exposed" : false
     }
-  }
+  },
+  "uuid" : "05f4d4c6-6624-45d8-a97a-1425c3d7c2ce",
+  "type" : "form"
 }

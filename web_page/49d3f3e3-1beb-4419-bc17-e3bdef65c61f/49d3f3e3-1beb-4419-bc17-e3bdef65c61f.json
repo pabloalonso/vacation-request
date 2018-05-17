@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.5.7",
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.5.7",
   "id" : "49d3f3e3-1beb-4419-bc17-e3bdef65c61f",
   "name" : "removeAllBusinessData",
-  "type" : "form",
-  "lastUpdate" : 1496130882791,
+  "lastUpdate" : 1526568389918,
   "rows" : [ [ {
     "type" : "component",
     "dimension" : {
@@ -146,6 +146,10 @@
       "alignment" : {
         "type" : "constant",
         "value" : "left"
+      },
+      "allowHTML" : {
+        "type" : "constant",
+        "value" : true
       }
     },
     "reference" : "baeff188-c743-4d3c-8599-10b5427cc2f9",
@@ -171,12 +175,22 @@
       "alignment" : {
         "type" : "constant",
         "value" : "left"
+      },
+      "allowHTML" : {
+        "type" : "constant",
+        "value" : true
       }
     },
     "reference" : "7dc3fbb3-8aab-4cff-a422-17e7f09de681",
     "id" : "pbText"
   } ] ],
   "assets" : [ {
+    "id" : "1ec75a5d-aeab-4ccf-8e92-7ee288b2ba45",
+    "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+    "type" : "js",
+    "order" : 2,
+    "external" : false
+  }, {
     "id" : "f0cc3492-3f81-4956-80be-2d97742d2a1a",
     "name" : "style.css",
     "type" : "css",
@@ -193,5 +207,7 @@
       "type" : "constant",
       "exposed" : false
     }
-  }
+  },
+  "uuid" : "49d3f3e3-1beb-4419-bc17-e3bdef65c61f",
+  "type" : "form"
 }
